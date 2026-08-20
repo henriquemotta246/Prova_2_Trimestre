@@ -1,0 +1,71 @@
+/* =========================================================
+   ARQUIVO DE APOIO - NÃO HÁ UMA SOLUÇÃO PRONTA AQUI.
+   Desenvolva o CSS da tarefa conforme o enunciado.
+   ========================================================= */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    padding: 30px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+.card {
+    width: 100%;
+    min-height: 180px;
+    padding: 24px;
+    margin-bottom: 24px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px;
+
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Desenvolva o restante do CSS. */
+
+/* Lembre-se de criar uma media query para telas
+   de até 768px quando a tarefa exigir responsividade. */
