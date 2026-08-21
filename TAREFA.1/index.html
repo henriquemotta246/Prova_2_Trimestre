@@ -1,6 +1,6 @@
+
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,26 +11,35 @@
 <body>
 
     <main class="container">
+
         <header>
             <h1>Controle do Equipamento</h1>
-            <p>Desenvolva a interface solicitada na avaliação.</p>
+            <p>Controle o estado do equipamento e personalize a interface.</p>
         </header>
 
         <section id="controle" class="card">
-         
 
-    </section>
-    <div class="''botão-container"></div>
-    <input type="color" id="cor"> 
-    <button id="limpar">Limpar</button>
-    <button id="exportar">Exportar</button>
-    <button id="resetar">Resetar</button>
-    <canvas id="tela" width="600" height="400"></canvas>
+            <div id="status" class="status desligado">
+                DESLIGADO
+            </div>
+
+            <canvas id="tela" width="600" height="400"></canvas>
+
+            <div class="botoes">
+                <button id="toggleBtn">LIGAR</button>
+                <button id="resetBtn">RESETAR</button>
+            </div>
+
+            <div class="seletor">
+                <label for="seletor-cor">Escolha uma cor:</label>
+                <input type="color" id="seletor-cor" value="#2563eb">
+            </div>
+
+        </section>
+
     </main>
- <script src="script.js"></script>
 
-
-
+    <script src="script.js"></script>
 </body>
-
 </html>
+
